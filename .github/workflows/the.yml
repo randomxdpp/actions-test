@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Update/Install Wget
-        run: apt install wget -y
+        run: sudo apt install wget -y
 
       # Runs a set of commands using the runners shell
       - name: Get Test File
